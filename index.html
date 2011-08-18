@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	</head>
+	<body>
+		<span id="resultadoUltimosorteio"></span>
+		<h1>Conferindo seus jogos da MEGA-SENA</h1>
+		<div>
+			<h3>Número do Concurso </h3>
+			<input type="text" id="numeroConcurso" />
+		</div>
+		<div>
+			<h3>Meus jogos para este concurso</h3>
+			<input type="text" id="numerosDeUmJogo" value="1,2,3,4,5,6"/>
+			<button id="addJogo">Adicionar um jogo</button>
+			<ul id="meusJogos"></ul>
+		</div>
+		<div>
+			<button id="mostraNumerosSorteados">Quero ver último sorteio!</button>
+			<button id="confereJogo">Testar a Sorte !!!</button>
+		</div>
+	</body>
+	<foot>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script type="text/javascript" src="confereResultado.js"></script>
+	</foot>
+</html>

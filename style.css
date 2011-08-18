@@ -1,0 +1,35 @@
+body > div {
+	border : solid 1px #AAA;
+	padding : 5px;
+	margin : 10px 0;
+	width : 400px;
+}
+h3 { 
+	margin : 7px 0;
+}
+#resultadoUltimosorteio{
+	display : none;
+}
+#meusJogos, #meusJogos ul {
+	margin : 0;
+	padding : 0;
+	list-style : none;
+}
+#meusJogos {
+	border : solid 1px black;
+	width : 250px;
+	height : 200px;
+	overflow: auto;
+}
+#meusJogos ul {
+	width : 100%;
+}
+#meusJogos ul > li  {
+	float : left;
+	width : 41px;
+	padding : 4px 0;
+	text-align : center;
+}
+#meusJogos > li:hover > ul > li {
+	background-color: #CDCDCD;
+}
